@@ -1,6 +1,6 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
-  "version": 1, 
+  "version": 1,
   "newProjectRoot": "projects",
   "projects": {
     "sfs": {
@@ -24,7 +24,10 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "src/assets/css/bootstrap.css",
+              "src/assets/css/bootstrap.min.css",
+              "src/assets/css/style.css"
             ],
             "scripts": []
           },
@@ -119,6 +122,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "sfs"
+    }
+  },
+  "defaultProject": "sfs",
+  "cli": {
+    "analytics": "ee4d9d02-eb81-4c0b-8472-2f6a61694b46"
+  }
 }

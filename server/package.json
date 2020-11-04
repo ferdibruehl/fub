@@ -1,0 +1,18 @@
+{
+  "name": "fub-server",
+  "version": "1.0.0",
+  "description": "Server for fub",
+  "main": "fub-server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tsc": "tsc"
+  },
+  "author": "Ferdinand Reiche",
+  "license": "ISC",
+  "dependencies": {
+    "@types/express": "^4.17.8",
+    "express": "^4.17.1",
+    "ts-node-dev": "^1.0.0",
+    "typescript": "^4.0.5"
+  }
+}
