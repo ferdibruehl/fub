@@ -3,7 +3,7 @@ const registration = require('./auth/registration');
 
 const app: express.Application = express();
 
-app.use('/test', registration);
+app.use('/registration', registration);
 
 const port = 3000;
 
