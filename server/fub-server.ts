@@ -1,4 +1,7 @@
 import express = require('express');
+import core = require('core');
+import bodyParser = require('body-parser');
+
 const registration = require('./auth/registration');
 
 const app: express.Application = express();

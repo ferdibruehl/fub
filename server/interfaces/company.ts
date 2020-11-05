@@ -24,8 +24,14 @@ interface employes{
     employesId: string,
     entryDate: string,
     personId: string,
+    position: string,
+    team: Array<any>,
+    hours: any,
+    sellery: any,
+    
+    orgigram: any,
     companyContact: companyContact
-    /**weiter emplydaten.... */
+    /**weitere employe data.... */
 }
 
 interface user{
